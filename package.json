@@ -1,0 +1,35 @@
+{
+  "name": "@suchipi/cli-toolkit",
+  "version": "1.0.0",
+  "description": "CLI app creation helpers",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "vitest"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "helper",
+    "wrapper"
+  ],
+  "author": "Lily Skye <me@suchipi.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suchipi/cli-toolkit.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.21",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vitest": "^1.3.1"
+  },
+  "dependencies": {
+    "@suchipi/run-main": "^1.0.0",
+    "@suchipi/string-utils": "^1.0.1",
+    "clef-parse": "^0.6.0",
+    "nice-path": "^2.0.0",
+    "pheno": "^0.12.0"
+  }
+}
