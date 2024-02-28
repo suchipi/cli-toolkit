@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/suchipi/cli-toolkit.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.21",
